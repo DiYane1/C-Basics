@@ -4,15 +4,15 @@ class Program
 {
     static void Main()
     {
-        int n = int.Parse(Console.ReadLine()); 
-        int sum = 0; 
+        int target = int.Parse(Console.ReadLine()); 
+        int sum = 0;
 
-        for (int i = 0; i < n; i++)
+        while (sum < target)
         {
-            int number = int.Parse(Console.ReadLine()); 
-            sum += number; 
+            int num = int.Parse(Console.ReadLine()); 
+            sum += num; 
         }
 
-        Console.WriteLine(sum);
+        Console.WriteLine(sum);  
     }
 }
